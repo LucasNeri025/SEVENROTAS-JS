@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.disable{
+    display: none;
+}
+.btnDelete{
+    background-color: #8e8e8e;
+    fill: white;
+    border-radius: 20px;
+    display: flex;
+    
+    align-items: center;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(6, 100, 17);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.navbar h1 {
+    color: white;
+    font-weight: 400;
+}
+.back{
+    text-decoration: none;
+    color: #000;
+    background: #e8e8e8;
+    padding: 1px;
+    border-radius: 5px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    height: 90vh;
+    width: 99%;
+    border-radius: 6px;
+    background-color: rgb(234, 234, 234);
+    overflow-y: scroll;
+}
+.conteudo h1 {
+    text-align: center;
+    font-size: 22;
+    font-weight: bold;
+    margin: 1px;
+    background-color: rgb(234, 234, 234);
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.hr,.unoazul,.unoprata,.fiorino,.strada {
+    overflow: scroll;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+button:hover {
+    background-color: #3e8e41;
+    color:white;
+    
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #373737;
+  border:1px solid black;
+  transform: translateY(2px);
+}
+.btn{
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.btn a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #3e8e41;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+.item{
+    display: flex;
+    padding: 4px;
+    margin: .5%;
+    background-color: rgb(210, 217, 224);
+    flex-direction: row;
+    border-radius: 3px;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.item p {
+    color: black;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    margin: 2px;
+    border-left: 1px solid rgb(170, 170, 170);
+    
+}
+::-webkit-scrollbar:horizontal{
+    display: none;
+}
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #b0b0b0;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #bababa;
+    border-radius: 5px;
+}
